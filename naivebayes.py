@@ -1,5 +1,5 @@
-import re
-from sensitive_data import dataset,feature_set,no_of_items
+import re #regular expression
+from sensitive_data import dataset,feature_set,no_of_items #sensitive_data.py
 
 #Hitung probabilitas kategori sebuah kata
 def calc_prob(word,category):
